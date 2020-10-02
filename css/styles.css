@@ -836,7 +836,8 @@ ul.card-set {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 50%;
 	z-index: 1;
-	display: inline-block;
+	display: flex;
+	align-items: center;
 }
 
 .modal-button:hover .modal-button-icon,
