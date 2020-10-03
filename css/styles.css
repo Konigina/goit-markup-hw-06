@@ -1042,6 +1042,8 @@ color: var(--text-color);
 }
 
 .checkbox:checked + .checkbox-icon {
+	background-color: var(--accent-color);
+	border-color: var(--accent-color);
 	background-image: url('../images/icon-checkbox.svg');
 	background-size: contain;
 	background-origin: content-box;
